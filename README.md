@@ -1,20 +1,26 @@
-# 🚀 SQL Mastery in 10 Days
+# 🚀 SQL Mastery Portfolio
 
 <div align="center">
 
-# SQL Mastery Roadmap
+# SQL Mastery Portfolio
 
-### From Beginner to Advanced SQL Developer in 10 Days
+### From SQL Fundamentals to Enterprise Database Engineering
 
-Learn • Practice • Build • Master
+A complete SQL learning journey covering database design, PostgreSQL development, advanced querying, business intelligence, analytics engineering, and real-world database projects.
+
+Built by **Rutvik Mathapati**
+
+**PhD Scholar (Computer Science & Engineering - AI/ML)**
+
+Alliance University
 
 ---
 
-### Created By
-
-**Rutvik Mathapati**
-
-PhD Scholar (AI/ML) | Software Engineer | Backend Developer
+![SQL](https://img.shields.io/badge/SQL-Advanced-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Expert-336791)
+![Database](https://img.shields.io/badge/Database-Engineering-success)
+![Analytics](https://img.shields.io/badge/Business_Analytics-orange)
+![Portfolio](https://img.shields.io/badge/Portfolio-Projects-red)
 
 </div>
 
@@ -22,506 +28,553 @@ PhD Scholar (AI/ML) | Software Engineer | Backend Developer
 
 # 📖 Overview
 
-This repository documents my complete SQL learning journey from fundamentals to advanced database concepts.
+This repository documents my structured SQL learning journey and portfolio development process.
 
-The goal is not just to learn SQL syntax but to master:
+The goal was not only to learn SQL syntax but also to understand how databases are designed, optimized, and used in real-world enterprise applications.
 
-* Relational Database Design
-* Query Writing
-* Database Optimization
-* Data Analysis
-* PostgreSQL Development
+The repository contains:
+
+* 10-Day SQL Mastery Roadmap
+* Detailed Notes
+* Practice Problems
+* Assignments
+* SQL Interview Preparation
+* Advanced SQL Concepts
 * Real-World Database Projects
-* Interview Preparation
-
-By the end of this roadmap, I will be capable of:
-
-✅ Designing databases
-
-✅ Writing complex SQL queries
-
-✅ Building production-ready schemas
-
-✅ Optimizing database performance
-
-✅ Working with PostgreSQL professionally
-
-✅ Solving real-world business problems
+* Analytics Dashboards
+* Business Intelligence Reports
 
 ---
 
 # 🎯 Learning Goals
 
-After completing this roadmap, I should be able to:
+The primary goals of this repository are:
 
-* Create relational databases
-* Design normalized schemas
-* Write CRUD operations
-* Use joins effectively
-* Create advanced reports
-* Perform analytical queries
-* Optimize database performance
-* Handle transactions safely
-* Implement indexes
-* Build database-driven applications
+### SQL Fundamentals
 
----
+Learn core SQL concepts and query writing.
 
-# 🛠 Technology Stack
+### Database Design
 
-| Technology | Purpose                 |
-| ---------- | ----------------------- |
-| PostgreSQL | Database                |
-| pgAdmin    | Database Administration |
-| SQL        | Query Language          |
-| Git        | Version Control         |
-| GitHub     | Portfolio Showcase      |
+Understand relational database architecture and normalization.
 
----
+### Advanced Querying
 
-# 🗺 SQL Roadmap
+Master JOINs, Subqueries, CTEs, and Window Functions.
 
-## Phase 1: SQL Fundamentals
+### Business Intelligence
 
-### Topics
+Build reports and dashboards using SQL.
 
-* What is Database?
-* What is RDBMS?
-* SQL vs NoSQL
-* Tables
-* Rows
-* Columns
-* Data Types
-* Operators
-* SQL Syntax
+### Enterprise Data Modeling
 
-### Commands
+Design scalable real-world databases.
 
-```sql
-SELECT
-FROM
-WHERE
-ORDER BY
-LIMIT
-```
+### Portfolio Development
+
+Create industry-relevant SQL projects.
 
 ---
 
-## Phase 2: Data Definition Language (DDL)
+# 🗓️ SQL Mastery Roadmap
 
-### Topics
+## Day 01 – Fundamentals
+
+Topics Covered:
+
+* Introduction to Databases
+* SQL Basics
+* SELECT Statement
+* WHERE Clause
+* ORDER BY
+* LIMIT
+
+---
+
+## Day 02 – Data Types
+
+Topics Covered:
+
+* Numeric Types
+* Character Types
+* Date & Time Types
+* NULL Values
+
+---
+
+## Day 03 – DDL & Constraints
+
+Topics Covered:
 
 * CREATE TABLE
 * ALTER TABLE
 * DROP TABLE
-* TRUNCATE TABLE
-
-### Constraints
-
-```sql
-PRIMARY KEY
-FOREIGN KEY
-UNIQUE
-NOT NULL
-CHECK
-DEFAULT
-```
+* PRIMARY KEY
+* FOREIGN KEY
+* UNIQUE
+* CHECK Constraints
 
 ---
 
-## Phase 3: Data Manipulation Language (DML)
+## Day 04 – DML
 
-### Topics
+Topics Covered:
 
-```sql
-INSERT
-UPDATE
-DELETE
-```
-
-### Skills
-
-* Add Records
-* Update Records
-* Delete Records
-* Data Validation
+* INSERT
+* UPDATE
+* DELETE
 
 ---
 
-## Phase 4: Querying Data
+## Day 05 – Aggregate Functions
 
-### Topics
+Topics Covered:
 
-```sql
-SELECT
-WHERE
-AND
-OR
-NOT
-BETWEEN
-IN
-LIKE
-DISTINCT
-LIMIT
-```
-
-### Outcome
-
-Retrieve and filter data efficiently.
+* COUNT()
+* SUM()
+* AVG()
+* MAX()
+* MIN()
+* GROUP BY
+* HAVING
 
 ---
 
-## Phase 5: Aggregate Functions
+## Day 06 – JOINs
 
-### Functions
+Topics Covered:
 
-```sql
-COUNT()
-SUM()
-AVG()
-MIN()
-MAX()
-```
-
-### Concepts
-
-```sql
-GROUP BY
-HAVING
-```
+* INNER JOIN
+* LEFT JOIN
+* RIGHT JOIN
+* FULL JOIN
+* SELF JOIN
 
 ---
 
-## Phase 6: Joins
+## Day 07 – Subqueries
 
-### Types
-
-```sql
-INNER JOIN
-LEFT JOIN
-RIGHT JOIN
-FULL OUTER JOIN
-SELF JOIN
-CROSS JOIN
-```
-
-### Goal
-
-Master relationships between tables.
-
----
-
-## Phase 7: Subqueries
-
-### Types
+Topics Covered:
 
 * Scalar Subqueries
-* Row Subqueries
-* Column Subqueries
-* Table Subqueries
-
-### Advanced
-
+* Correlated Subqueries
 * Nested Queries
-* Correlated Queries
 
 ---
 
-## Phase 8: Functions
+## Day 08 – SQL Functions
 
-### String Functions
+Topics Covered:
 
-```sql
-CONCAT()
-LENGTH()
-SUBSTRING()
-UPPER()
-LOWER()
-REPLACE()
-```
-
-### Numeric Functions
-
-```sql
-ABS()
-ROUND()
-MOD()
-FLOOR()
-CEILING()
-```
-
-### Date Functions
-
-```sql
-DATE
-TIME
-TIMESTAMP
-CURRENT_DATE
-CURRENT_TIMESTAMP
-```
+* String Functions
+* Date Functions
+* Numeric Functions
 
 ---
 
-## Phase 9: Database Objects
+## Day 09 – Views, Indexes & Transactions
 
-### Views
+Topics Covered:
 
-```sql
-CREATE VIEW
-ALTER VIEW
-DROP VIEW
-```
-
-### Indexes
-
-```sql
-CREATE INDEX
-DROP INDEX
-```
+* Views
+* Indexes
+* ACID Properties
+* Transactions
 
 ---
 
-## Phase 10: Transactions
+## Day 10 – Advanced SQL
 
-### Concepts
+Topics Covered:
 
-```sql
-BEGIN
-COMMIT
-ROLLBACK
-SAVEPOINT
-```
-
-### ACID Properties
-
-* Atomicity
-* Consistency
-* Isolation
-* Durability
-
----
-
-## Phase 11: Advanced SQL
-
-### Window Functions
-
-```sql
-ROW_NUMBER()
-RANK()
-DENSE_RANK()
-LEAD()
-LAG()
-```
-
-### CTE
-
-```sql
-WITH
-```
-
-### Recursive Queries
-
-```sql
-WITH RECURSIVE
-```
-
-### Query Optimization
-
-* Explain Analyze
-* Index Tuning
-* Query Refactoring
-
----
-
-# 📅 10-Day Learning Plan
-
-| Day    | Topic                        |
-| ------ | ---------------------------- |
-| Day 1  | Fundamentals                 |
-| Day 2  | Filtering & Sorting          |
-| Day 3  | DDL & Constraints            |
-| Day 4  | DML Operations               |
-| Day 5  | Aggregate Functions          |
-| Day 6  | Joins                        |
-| Day 7  | Subqueries                   |
-| Day 8  | Functions                    |
-| Day 9  | Views, Indexes, Transactions |
-| Day 10 | Advanced SQL                 |
+* Common Table Expressions (CTE)
+* Recursive CTE
+* Window Functions
+* Query Optimization
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-SQL-Mastery-10-Days
+SQL-Mastery-Portfolio/
 │
-├── Day-01-Fundamentals
-├── Day-02-Filtering
-├── Day-03-DDL
-├── Day-04-DML
-├── Day-05-Aggregates
-├── Day-06-Joins
-├── Day-07-Subqueries
-├── Day-08-Functions
-├── Day-09-Transactions
-├── Day-10-Advanced-SQL
+├── README.md
 │
-├── Projects
-│   ├── Student-Management-System
-│   ├── Employee-Management-System
-│   ├── E-Commerce-Database
-│   ├── Hospital-Management-System
-│   └── Syncher-Analytics-Database
+├── docs/
 │
-├── Notes
-├── Interview-Questions
-└── README.md
+├── SQL-Roadmap/
+│   ├── Day-01-Fundamentals/
+│   ├── Day-02-Data-Types/
+│   ├── Day-03-DDL-Constraints/
+│   ├── Day-04-DML/
+│   ├── Day-05-Aggregate-Functions/
+│   ├── Day-06-Joins/
+│   ├── Day-07-Subqueries/
+│   ├── Day-08-SQL-Functions/
+│   ├── Day-09-Views-Indexes-Transactions/
+│   └── Day-10-Advanced-SQL/
+│
+├── Projects/
+│   ├── Project-01-Student-Management-System/
+│   ├── Project-02-Employee-Management-System/
+│   ├── Project-03-E-Commerce-Database-System/
+│   └── Project-04-Hospital-Management-System/
+│
+├── Practice-Sets/
+│
+├── Interview-Preparation/
+│
+└── assets/
 ```
 
 ---
 
-# 💼 Portfolio Projects
+# 🏆 Portfolio Projects
 
-## Project 1 — Student Management System
+## 🎓 Project 01 – Student Management System
 
-Features:
+A complete educational database system for managing:
 
-* Student Records
+* Students
 * Courses
-* Enrollments
-* Reports
+* Instructors
+* Attendance
+* Exams
+* Marks
 
-Skills:
+### Key Concepts
 
-* CRUD
-* Joins
-* Aggregations
+* Schema Design
+* JOIN Operations
+* Academic Analytics
+* Reporting Views
+
+### Difficulty
+
+⭐⭐⭐
 
 ---
 
-## Project 2 — Employee Management System
+## 👨‍💼 Project 02 – Employee Management System
 
-Features:
+A Human Resource Management System covering:
 
 * Employees
 * Departments
-* Salaries
+* Payroll
+* Attendance
+* Performance Reviews
+* Promotions
 
-Skills:
+### Key Concepts
 
-* Constraints
-* Foreign Keys
-* Reports
+* HR Analytics
+* Payroll Reporting
+* Window Functions
+* Employee Rankings
+
+### Difficulty
+
+⭐⭐⭐⭐
 
 ---
 
-## Project 3 — E-Commerce Database
+## 🛒 Project 03 – E-Commerce Database System
 
-Features:
+A complete online retail database solution including:
 
+* Customers
 * Products
+* Categories
 * Orders
 * Payments
-* Customers
+* Shipping
+* Inventory
 
-Skills:
+### Key Concepts
 
-* Transactions
-* Views
-* Analytics
+* Revenue Analytics
+* Customer Segmentation
+* Inventory Management
+* Executive Dashboards
+
+### Difficulty
+
+⭐⭐⭐⭐⭐
 
 ---
 
-## Project 4 — Hospital Management System
+## 🏥 Project 04 – Hospital Management System
 
-Features:
+A healthcare database platform for managing:
 
-* Doctors
 * Patients
+* Doctors
 * Appointments
+* Medical Records
+* Prescriptions
+* Billing
+* Admissions
 
-Skills:
+### Key Concepts
 
-* Advanced Queries
-* Joins
-* Reports
+* Healthcare Analytics
+* Revenue Tracking
+* Room Occupancy Analytics
+* Clinical Reporting
 
----
+### Difficulty
 
-## Project 5 — Syncher Analytics Database
-
-Features:
-
-* User Cycle Tracking
-* Symptoms
-* Predictions
-* Analytics
-
-Skills:
-
-* Window Functions
-* CTE
-* Reporting
+⭐⭐⭐⭐⭐
 
 ---
 
-# 📚 Interview Preparation
+# 📊 SQL Concepts Demonstrated
 
-Topics Covered:
+## Database Design
 
-* SQL Basics
+* Relational Modeling
+* ER Design
 * Normalization
-* Joins
-* Indexes
-* Transactions
-* ACID Properties
-* Query Optimization
+* Schema Architecture
+
+---
+
+## SQL Fundamentals
+
+* SELECT
+* INSERT
+* UPDATE
+* DELETE
+
+---
+
+## Data Aggregation
+
+* COUNT()
+* SUM()
+* AVG()
+* MAX()
+* MIN()
+
+---
+
+## Advanced SQL
+
+* JOINs
+* Subqueries
+* Views
+* Common Table Expressions
+* Recursive CTEs
 * Window Functions
+
+---
+
+## Performance Optimization
+
+* Indexing
+* Query Tuning
+* Execution Optimization
+
+---
+
+# 📈 Analytics & Reporting
+
+Implemented analytics modules include:
+
+### Student Analytics
+
+* Attendance Reports
+* Academic Performance Reports
+
+### Employee Analytics
+
+* Payroll Analysis
+* Employee Performance Reports
+
+### E-Commerce Analytics
+
+* Revenue Analysis
+* Customer Analytics
+* Product Analytics
+
+### Healthcare Analytics
+
+* Patient Analytics
+* Doctor Performance Analytics
+* Revenue Analytics
+
+---
+
+# 📚 Practice & Interview Preparation
+
+The repository includes:
+
+### SQL Practice Sets
+
+* Beginner Level
+* Intermediate Level
+* Advanced Level
+
+### Interview Preparation
+
+* SQL Interview Questions
+* Scenario-Based Questions
+* Query Optimization Questions
+* PostgreSQL Questions
+* Window Function Problems
+
+---
+
+# 🧠 Skills Demonstrated
+
+### Database Engineering
+
+✓ Database Design
+
+✓ Relational Modeling
+
+✓ Normalization
+
+✓ Data Integrity
+
+---
+
+### SQL Development
+
+✓ Query Writing
+
+✓ Reporting
+
+✓ Stored Logic Concepts
+
+✓ Analytics Queries
+
+---
+
+### Business Intelligence
+
+✓ KPI Dashboards
+
+✓ Executive Reports
+
+✓ Revenue Analysis
+
+✓ Trend Analysis
+
+---
+
+### PostgreSQL
+
+✓ Table Design
+
+✓ Constraints
+
+✓ Views
+
+✓ Indexes
+
+✓ Advanced Querying
+
+---
+
+# 📊 Repository Statistics
+
+| Metric              | Count |
+| ------------------- | ----: |
+| Learning Days       |    10 |
+| Projects Completed  |     4 |
+| SQL Files Created   |  100+ |
+| SQL Queries Written |  400+ |
+| Views Implemented   |   50+ |
+| Analytics Reports   |  100+ |
+| Tables Designed     |   40+ |
+
+---
+
+# 🚀 Future Roadmap
+
+Planned future projects:
+
+### Banking Management System
+
+* Accounts
+* Transactions
+* Loans
+* Fraud Analytics
+
+### Hotel Booking System
+
+* Reservations
+* Guests
+* Rooms
+* Revenue Analytics
+
+### Food Delivery System
+
+* Restaurants
+* Orders
+* Delivery Tracking
+
+### Syncher Healthcare Analytics Platform
+
+AI-powered healthcare analytics system combining:
+
+* SQL
+* PostgreSQL
+* Python
+* Machine Learning
+* Healthcare Intelligence
+
+---
+
+# 💼 Career Relevance
+
+This repository demonstrates skills relevant to:
+
+* SQL Developer
+* Backend Developer
+* Database Engineer
+* Data Analyst
+* Data Engineer
+* Business Intelligence Engineer
+* PostgreSQL Developer
+* AI/ML Research Projects
+
+---
+
+# 🎓 Learning Outcomes
+
+By completing this portfolio, I gained practical experience in:
+
+* SQL Development
 * Database Design
+* PostgreSQL
+* Business Intelligence
+* Analytics Engineering
+* Data Modeling
+* Query Optimization
+* Enterprise Database Architecture
 
 ---
 
-# 🏆 Expected Outcome
+# 📜 License
 
-By completing this roadmap I will:
-
-* Master SQL Fundamentals
-* Become PostgreSQL Proficient
-* Build Portfolio Projects
-* Crack SQL Interview Rounds
-* Strengthen Backend Development Skills
-* Improve Data Analytics Skills
-* Support AI/ML Research Work
+This repository is intended for educational, research, and portfolio purposes.
 
 ---
 
-# 📈 Progress Tracker
+# 👨‍💻 Author
 
-## Learning Progress
+## Rutvik Mathapati
 
-* [ ] Day 1 Completed
-* [ ] Day 2 Completed
-* [ ] Day 3 Completed
-* [ ] Day 4 Completed
-* [ ] Day 5 Completed
-* [ ] Day 6 Completed
-* [ ] Day 7 Completed
-* [ ] Day 8 Completed
-* [ ] Day 9 Completed
-* [ ] Day 10 Completed
+PhD Scholar (Computer Science & Engineering – AI/ML)
+
+Alliance University
+
+### Building Data Systems • Solving Problems • Creating Impact
 
 ---
 
-# 🤝 Connect
-
-**Rutvik Mathapati**
-
-PhD Scholar (AI/ML)
-
-Backend Developer | Django Developer | SQL Enthusiast
-
----
-
-## ⭐ If you found this repository useful, consider giving it a star.
-
-"Master SQL. Build Better Systems. Query with Confidence."
+### ⭐ If you found this repository useful, consider giving it a star.
